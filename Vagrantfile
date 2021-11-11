@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "generic/ubuntu2004"
+  config.vm.box = "bento/centos-6.7"
 
   config.vm.synced_folder "./workspace", "/home/vagrant/workspace", create: true
 
